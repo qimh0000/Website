@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery practice project</title>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <script>
+        var folder = "images/";
+        const pic_num = 2;
+
+        $.ajax({
+            url: folder,
+            success: function (data) {
+                $(data).find("a").attr("href", function (i, val) {
+                    if (document.getElementsByTagName("video").length<pic_num) {
+                        /*if (val.match(/\.(jpe?g|png|gif)$/)) {
+                            $("body").append("<img src='" + val + "'>");
+                        }*/
+                        if (val.match(/\.(mp4)$/)) {
+                            $("body").append("<video autoplay loop src='" + val + "'>");
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
