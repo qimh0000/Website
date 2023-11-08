@@ -139,11 +139,19 @@ table {
     flex-direction: row;
     position: absolute;
     z-index: 0;
+    height: 100vh;
 }
 video{
     position: absolute;
     z-index: 10;
     box-shadow: 0px 0px 10px #fff;
+}
+.rain{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(images/rain.png);
+    z-index: 20;
 }
 
 .v01{
