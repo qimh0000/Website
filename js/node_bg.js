@@ -1,7 +1,7 @@
 let imgNum = 7;
 let record = false;
 let md = false;
-let numberOfNodes = 300;
+let numberOfNodes = 500;
 let nodes = new Array(numberOfNodes);
 var w = window.innerWidth;
 var h = window.innerHeight;  
@@ -11,7 +11,7 @@ function setup() {
     //randomSeed(millis());
     canvas=createCanvas(w, h);
     //smooth();
-    strokeWeight(1);
+    strokeWeight(2);
     background(0);
     mic = new p5.AudioIn();
 
