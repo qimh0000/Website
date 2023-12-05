@@ -205,34 +205,5 @@ video{
     height: auto;
     left: 2900px;
     top: 110px;
-    animation: float 8s ease-in-out infinite;
-}
-.v04{
-    width: 500px;
-    height: auto;
-    left: 4500px;
-    top: 80px;
-    animation: float-neg 5s ease-in-out infinite;
-}
-
-.v05{
-    width: 500px;
-    height: auto;
-    left: 6050px;
-    top: 80px;
-    animation: float 6s ease-in-out infinite;
-}
-.v06{
-    width: 400px;
-    height: auto;
-    left: 7850px;
-    top: 95px;
-    animation: float-neg 6s ease-in-out infinite;
-}
-.v07{
-    width: 400px;
-    height: auto;
-    left: 8650px;
-    top: 95px;
-    animation: float-neg 7s ease-in-out infinite;
+    animation: float 7s ease-in-out infinite;
 }
