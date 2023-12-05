@@ -40,11 +40,13 @@ function draw() {
     }
     for (let i = 0; i < numberOfNodes - 1; i++) {
         for (let c = i + 1; c < numberOfNodes; c++) {
+            fill(255,255,255,0);
             let d = sq(nodes[c].x - nodes[i].x) + sq(nodes[c].y - nodes[i].y);
             if (d < pow(90, 2)) {
                 stroke(255, map(d, 0, pow(100, 2), 100, 0));
                 line(nodes[c].x, nodes[c].y, nodes[i].x, nodes[i].y);
                 nodes[c].radius=r+3;
+                
                 nodes[i].xv +=
                     (0.00005 * (nodes[c].x - nodes[i].x) * nodes[c].radius) /
                     nodes[i].radius;
