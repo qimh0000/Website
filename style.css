@@ -177,6 +177,10 @@ video{
     transform: translatey(0px);
 	
 }
+img{
+    box-shadow: 0px 0px 10px #fff;
+    transform: translatey(0px);
+}
 
 .v01{
     width: 400px;
@@ -186,18 +190,18 @@ video{
     animation: float 6s ease-in-out infinite;
 }
 .v02{
-    width: 1000px;
+    width: 400px;
     height: auto;
-    left: 1700px;
-    top: 160px;
+    left: 1300px;
+    top: 195px;
     animation: float-neg 6s ease-in-out infinite;
 }
 .v03
 {
-    width: 400px;
+    width: 1000px;
     height: auto;
-    left: 2900px;
-    top: 110px;
+    left: 2200px;
+    top: 160px;
     animation: float 8s ease-in-out infinite;
 }
 .v04{
@@ -207,7 +211,6 @@ video{
     top: 160px;
     animation: float-neg 5s ease-in-out infinite;
 }
-
 .v05{
     width: 1000px;
     height: auto;
@@ -216,30 +219,30 @@ video{
     animation: float 6s ease-in-out infinite;
 }
 .v06{
-    width: 400px;
+    width: 1000px;
     height: auto;
-    left: 7350px;
+    left: 7150px;
     top: 195px;
     animation: float-neg 6s ease-in-out infinite;
 }
 .v07{
     width: 400px;
     height: auto;
-    left: 8050px;
+    left: 8350px;
     top: 95px;
     animation: float-neg 7s ease-in-out infinite;
 }
 .v08{
     width: 400px;
     height: auto;
-    left: 8750px;
+    left: 8950px;
     top: 195px;
     animation: float-neg 7s ease-in-out infinite;
 }
 .img01{
     width: 1000px;
     height: auto;
-    left: 2000px;
+    left: 2200px;
     top: 160px;
     animation: float-neg 6s ease-in-out infinite;
 }
@@ -260,11 +263,38 @@ video{
 .img04{
     width: 1000px;
     height: auto;
-    left: 7350px;
+    left: 7150px;
     top: 160px;
     animation: float-neg 6s ease-in-out infinite;
 }
-
+.v04-1{
+    width: 400px;
+    height: auto;
+    left: 4200px;
+    top: 195px;
+    animation: float-neg 5s ease-in-out infinite;
+}
+.v04-2{
+    width: 400px;
+    height: auto;
+    left: 4800px;
+    top: 195px;
+    animation: float 6s ease-in-out infinite;
+}
+.v04-3{
+    width: 400px;
+    height: auto;
+    left: 5400px;
+    top: 195px;
+    animation: float-neg 7s ease-in-out infinite;
+}
+.v04-4{
+    width: 400px;
+    height: auto;
+    left: 6000px;
+    top: 195px;
+    animation: float 5s ease-in-out infinite;
+}
 
 @keyframes move-background {
     from {
