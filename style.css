@@ -177,26 +177,19 @@ video{
     transform: translatey(0px);
 	
 }
-.rain{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    background-image: url(images/rain.png);
-    z-index: 20;
-}
 
 .v01{
     width: 400px;
     height: auto;
-    left: 500px;
-    top: 180px;
+    left: 495px;
+    top: 210px;
     animation: float 6s ease-in-out infinite;
 }
 .v02{
     width: 1000px;
     height: auto;
-    left: 1300px;
-    top: 250px;
+    left: 1700px;
+    top: 160px;
     animation: float-neg 6s ease-in-out infinite;
 }
 .v03
@@ -208,31 +201,38 @@ video{
     animation: float 8s ease-in-out infinite;
 }
 .v04{
-    width: 500px;
+    width: 1000px;
     height: auto;
-    left: 4500px;
-    top: 80px;
+    left: 4000px;
+    top: 160px;
     animation: float-neg 5s ease-in-out infinite;
 }
 
 .v05{
-    width: 500px;
+    width: 1000px;
     height: auto;
-    left: 6050px;
-    top: 80px;
+    left: 5550px;
+    top: 160px;
     animation: float 6s ease-in-out infinite;
 }
 .v06{
     width: 400px;
     height: auto;
-    left: 7850px;
-    top: 95px;
+    left: 7350px;
+    top: 195px;
     animation: float-neg 6s ease-in-out infinite;
 }
 .v07{
     width: 400px;
     height: auto;
-    left: 8650px;
+    left: 8050px;
     top: 95px;
+    animation: float-neg 7s ease-in-out infinite;
+}
+.v08{
+    width: 400px;
+    height: auto;
+    left: 8750px;
+    top: 195px;
     animation: float-neg 7s ease-in-out infinite;
 }

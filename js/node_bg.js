@@ -1,7 +1,7 @@
 let imgNum = 7;
 let record = false;
 let md = false;
-let numberOfNodes = 500;
+let numberOfNodes = 100;
 let nodes = new Array(numberOfNodes);
 var w = window.innerWidth;
 var h = window.innerHeight;  
@@ -11,7 +11,7 @@ function setup() {
     //randomSeed(millis());
     canvas=createCanvas(w, h);
     //smooth();
-    strokeWeight(2);
+    strokeWeight(4);
     background(0);
     mic = new p5.AudioIn();
 
@@ -48,10 +48,10 @@ function draw() {
                 nodes[c].radius=r+3;
                 
                 nodes[i].xv +=
-                    (0.0005 * (nodes[c].x - nodes[i].x) * nodes[c].radius) /
+                    (0.00001 * (nodes[c].x - nodes[i].x) * nodes[c].radius) /
                     nodes[i].radius;
                 nodes[i].yv +=
-                    (0.0005 * (nodes[c].y - nodes[i].y) * nodes[c].radius) /
+                    (0.00001 * (nodes[c].y - nodes[i].y) * nodes[c].radius) /
                     nodes[i].radius;
             }
         }
