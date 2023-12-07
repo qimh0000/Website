@@ -1,7 +1,7 @@
 let imgNum = 7;
 let record = false;
 let md = false;
-let numberOfNodes = 100;
+let numberOfNodes = 500;
 let nodes = new Array(numberOfNodes);
 var w = window.innerWidth;
 var h = window.innerHeight;  
@@ -60,15 +60,7 @@ function draw() {
     //record = false;
     //}
 }
-function mousePressed() {
-    md = true;
-}
-function mouseReleased() {
-    md = false;
-}
-function keyPressed() {
-    record = true;
-}
+
 
 class Node {
     x;
@@ -84,8 +76,8 @@ class Node {
         this.yv = random(-1, 1);
     }
     display() {
-        this.xv *= 0.999;
-        this.yv *= 0.999;
+        this.xv *= 1;
+        this.yv *= 1;
         this.x += this.xv;
         this.y += this.yv;
         if (this.x < 0) {
